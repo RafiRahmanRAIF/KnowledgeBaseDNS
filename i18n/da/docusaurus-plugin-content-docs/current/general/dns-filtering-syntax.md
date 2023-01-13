@@ -31,18 +31,18 @@ Vedligeholder man enten en `/etc/hosts`-blokeringslistetype, eller flere filtrer
 
 * `||eksempel.org^`: Afblokér domæneadgang til `eksempel.org` og alle dets underdomæner.
 
-* `1.2.3.4 eksempel.org`: (Bemærk, gammel `/etc/hosts`-syntakstype) i AdGuard Home, svar med `1.2.3.4` på forespørgsler for `eksempel.org`-domænet, men **ikke** dets underdomæner. Blokér i Privat AdGuard DNS adgangen til `eksempel.org`. `www.eksempel.org` forbliver tilladt.
+* `1.2.3.4 eksempel.org`: (Bemærk, gammel `/etc/hosts`-syntakstype) i AdGuard Home, svar med `1.2.3.4` på forespørgsler for `eksempel.org`-domænet, men **ikke** dets underdomæner. Blokér i Private AdGuard DNS adgangen til `eksempel.org`. `www.eksempel.org` forbliver tilladt.
 
   I AdGuard Home er brug af den uspecificerede IP-adresse (`0.0.0.0`) eller en lokal adresse (`127.0.0.1` o.lign.) for en vært essentielt det samme som at blokere denne vært.
 
   ```none
   # Returnerer IP-adressen 1.2.3.4 for eksempel.org.
-  1.2.3.4 example.org
-  # Blocks example.org by responding with 0.0.0.0.
-  0.0.0.0 example.org
+  1.2.3.4 eksempel.org
+  # Blokerer eksempel.org ved at svare med 0.0.0.0.
+  0.0.0.0 eksempel.org
   ```
 
-* `eksempel.org`: En simpel domæneregel. Blocks the `example.org` domain but **not** its subdomains. `www.eksempel.org` forbliver tilladt.
+* `eksempel.org`: En simpel domæneregel. Blokerer `eksempel.org`-domænet, men **ikke** dets underdomæner. `www.eksempel.org` forbliver tilladt.
 
 * `! Her angives en kommentar` og `# Også en kommentar`: Kommentarer.
 
@@ -65,7 +65,7 @@ modifikatorer = [modifikator0, modifikator1[, ...[, modifikatorN]]]
 
 ### Specialtegn
 
-* `*`: jokertegnet. It is used to represent any set of characters. Dette kan også være en tom streng eller en streng af enhver længde.
+* `*`: jokertegnet. Det bruges til at repræsentere et hvilket som helst tegn. Dette kan også være en tom streng eller en streng af enhver længde.
 
 * `||`: Matcher begyndelsen af et værtsnavn, inkl. ethvert underdomæne. F.eks. så matcher `||eksempel.org` `eksempel.org` og `test.eksempel.org`, men ikke `testeksempel.org`.
 
@@ -243,7 +243,7 @@ SVAR:
 
 #### `dnsrewrite`
 
-`dnsrewrite`-svarmodifikatoren muliggør at erstatte indholdet af svaret på DNS-forespørgslen for de matchende værter. Bemærk, at denne modifikator i AdGuard Home fungerer i alle regler, men kun i tilpassede regler i Privat AdGuard DNS.
+`dnsrewrite`-svarmodifikatoren muliggør at erstatte indholdet af svaret på DNS-forespørgslen for de matchende værter. Bemærk, at denne modifikator i AdGuard Home fungerer i alle regler, men kun i tilpassede regler i Private AdGuard DNS.
 
 **Regler med `dnsrewrite`-svarmodifikatoren har højere prioritet end andre regler i AdGuard Home.**
 
@@ -412,7 +412,7 @@ Listen over tilladte tags:
   * `device_audio`: Lydenheder.
   * `device_camera`: Kameraer.
   * `device_gameconsole`: Spillekonsoller.
-  * `device_laptop`: laptops.
+  * `device_laptop`: Bærbare.
   * `device_nas`: NAS (netværkstilsluttede lagerenheder).
   * `device_pc`: PC'er.
   * `device_phone`: Mobiler.

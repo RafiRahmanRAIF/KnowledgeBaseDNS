@@ -53,7 +53,7 @@ Esses servidores fornecem uma conexão segura e confiável, mas não filtram nad
 
 ### Yandex DNS
 
-[Yandex.DNS](https://dns.yandex.com/) is a free recursive DNS service. Os servidores do Yandex.DNS estão localizados na Rússia, países membros da CEI, e Europa Ocidental. As solicitações dos usuários são processadas pelos data centers mais próximos, que oferecem altas velocidades de conexão.
+[Yandex.DNS](https://dns.yandex.com/) é um serviço DNS recursivo gratuito. Os servidores do Yandex.DNS estão localizados na Rússia, países membros da CEI, e Europa Ocidental. As solicitações dos usuários são processadas pelos data centers mais próximos, que oferecem altas velocidades de conexão.
 
 #### Básico
 
@@ -87,7 +87,7 @@ No modo "Família", é fornecida a proteção contra sites infectados, fraudulen
 
 ### CleanBrowsing
 
-[CleanBrowsing](https://cleanbrowsing.org/) is a DNS service which provides customizable filtering. Este serviço oferece uma maneira segura de navegar na web sem conteúdo impróprio.
+[CleanBrowsing](https://cleanbrowsing.org/) é um serviço DNS que fornece filtragem personalizável. Este serviço oferece uma maneira segura de navegar na web sem conteúdo impróprio.
 
 #### Filtro familiar
 
@@ -139,7 +139,7 @@ Bloqueia phishing, spam e domínios maliciosos
 
 [Neustar Recursive DNS](https://www.security.neustar/digital-performance/dns-services/recursive-dns) is a free cloud-based recursive DNS service that delivers fast and reliable access to sites and online applications with built-in security and threat intelligence.
 
-#### Reliability & Performance 1
+#### Confiabilidade & Desempenho 1
 
 These servers provide reliable and fast DNS lookups without blocking any specific categories
 
@@ -148,7 +148,7 @@ These servers provide reliable and fast DNS lookups without blocking any specifi
 | DNS, IPv4 | `156.154.70.1` e `156.154.71.1`       | [Adicionar ao AdGuard](sdns://AAAAAAAAAAAADDE1Ni4xNTQuNzAuMQ)       |
 | DNS, IPv6 | `2610:a1:1018::1` e `2610:a1:1019::1` | [Adicionar ao AdGuard](sdns://AAAAAAAAAAAAEVsyNjEwOmExOjEwMTg6OjFd) |
 
-#### Reliability & Performance 2*
+#### Confiabilidade & Desempenho 2*
 
 These servers provide reliable and fast DNS lookups without blocking any specific categories and also prevent redirecting NXDomain (Non-existent Domain) responses to a landing page
 
@@ -157,7 +157,7 @@ These servers provide reliable and fast DNS lookups without blocking any specifi
 | DNS, IPv4 | `156.154.70.5` e `156.154.71.5`       | [Adicionar ao AdGuard](sdns://AAAAAAAAAAAADDE1Ni4xNTQuNzAuNQ)       |
 | DNS, IPv6 | `2610:a1:1018::5` e `2610:a1:1019::5` | [Adicionar ao AdGuard](sdns://AAAAAAAAAAAAEVsyNjEwOmExOjEwMTg6OjVd) |
 
-#### Threat Protection
+#### Proteção contra ameaças
 
 These servers provide protection against malicious domains and also include "Reliability & Performance" features
 
@@ -166,7 +166,7 @@ These servers provide protection against malicious domains and also include "Rel
 | DNS, IPv4 | `156.154.70.2` e `156.154.71.2`       | [Adicionar ao AdGuard](sdns://AAAAAAAAAAAADDE1Ni4xNTQuNzAuMg)       |
 | DNS, IPv6 | `2610:a1:1018::2` e `2610:a1:1019::2` | [Adicionar ao AdGuard](sdns://AAAAAAAAAAAAEVsyNjEwOmExOjEwMTg6OjJd) |
 
-#### Family Secure
+#### Segurança familiar
 
 These servers provide blocking access to mature content and also include "Reliability & Performance" + "Threat Protection" features
 
@@ -175,9 +175,9 @@ These servers provide blocking access to mature content and also include "Reliab
 | DNS, IPv4 | `156.154.70.3` e `156.154.71.3`       | [Adicionar ao AdGuard](sdns://AAAAAAAAAAAADDE1Ni4xNTQuNzAuMw)       |
 | DNS, IPv6 | `2610:a1:1018::3` e `2610:a1:1019::3` | [Adicionar ao AdGuard](sdns://AAAAAAAAAAAAEVsyNjEwOmExOjEwMTg6OjNd) |
 
-#### Business Secure
+#### Segurança empresarial
 
-These servers provide blocking unwanted and time-wasting content and also include "Reliability & Performance" + "Threat Protection" + "Family Secure" features
+Esses servidores fornecem bloqueio de conteúdo indesejado e perda de tempo e também incluem recursos "Confiabilidade & Desempenho" + "Proteção contra Ameaças" + "Segurança Familiar"
 
 | Protocolo | Endereço                              |                                                                     |
 | --------- | ------------------------------------- | ------------------------------------------------------------------- |
@@ -186,7 +186,7 @@ These servers provide blocking unwanted and time-wasting content and also includ
 
 ### Cisco OpenDNS
 
-[Cisco OpenDNS](https://www.opendns.com/) is a service which extends the DNS by incorporating features such as content filtering and phishing protection with a zero downtime.
+[Cisco OpenDNS](https://www. opendns. com/) é um serviço que estende o DNS incorporando recursos como filtragem de conteúdo e proteção contra phishing com tempo de inatividade zero.
 
 #### Padrão
 
@@ -212,7 +212,7 @@ Servidores OpenDNS que fornecem bloqueio de conteúdo adulto
 
 ### Google DNS
 
-[Google DNS](https://developers.google.com/speed/public-dns/) is a free, global DNS resolution service that you can use as an alternative to your current DNS provider.
+[Google DNS](https://developers. google. com/speed/public-dns/) é um serviço de resolução de DNS global e gratuito que você pode usar como alternativa ao seu provedor de DNS atual.
 
 | Protocolo       | Endereço                                        |                                                                                                                        |
 | --------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
@@ -223,7 +223,7 @@ Servidores OpenDNS que fornecem bloqueio de conteúdo adulto
 
 ### Cloudflare DNS
 
-[Cloudflare DNS](https://1.1.1.1/) is a free and fast DNS service which functions as a recursive name server providing domain name resolution for any host on the Internet.
+[Cloudflare DNS](https://1.1.1.1/) é um serviço de DNS gratuito e rápido que funciona como um servidor de nomes recursivo, fornecendo resolução de nomes de domínio para qualquer host na Internet.
 
 #### Padrão
 

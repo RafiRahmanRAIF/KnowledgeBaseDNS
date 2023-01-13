@@ -28,9 +28,9 @@ AdGuard DNS er en af de mest fortrolighedsorienterede DNS-tjenester på markedet
 
 > Omkring 75 % af AdGuard DNS-trafikken er krypteret. Det er faktisk dét, der adskiller indholdsblokerende DNS-servere fra de øvrige. Kigger man på CloudFlare- eller Quad9-statistikker, vil man se, at krypteret DNS kun udgør en lille del af alle forespørgsler.
 
-AdGuard DNS findes i to hovedformer: [Offentlig AdGuard DNS](public-dns/overview.md) og [Privat AdGuard DNS](private-dns/overview.md). Begge disse tjenester kræver ikke installation af nogen app. De er nemme at opsætte og anvende, og de giver brugerne det minimum af funktioner, som kræves for at blokere annoncer, trackere, ondsindede websteder og, om ønsket, voksenindhold. Der er ingen begrænsninger af, med hvilke enheder de kan bruges.
+AdGuard DNS findes i to hovedformer: [Offentlig AdGuard DNS](public-dns/overview.md) og [privat AdGuard DNS](private-dns/overview.md). Begge disse tjenester kræver ikke installation af nogen app. De er nemme at opsætte og anvende, og de giver brugerne det minimum af funktioner, som kræves for at blokere annoncer, trackere, ondsindede websteder og, om ønsket, voksenindhold. Der er ingen begrænsninger af, med hvilke enheder de kan bruges.
 
-På trods af mange ligheder, så er Privat AdGuard DNS og Offentlig AdGuard DNS to forskellige tjenester. Deres største forskel er, at Privat AdGuard DNS kan tilpasses, mens Offentlig AdGuard DNS ikke kan.
+Trods mange ligheder, så er privat AdGuard DNS og offentlig AdGuard DNS to forskellige tjenester. Deres største forskel er, at privat AdGuard DNS kan tilpasses, mens offentlig AdGuard DNS ikke kan.
 
 ## DNS-filtreringsmodul i AdGuard-produkter
 

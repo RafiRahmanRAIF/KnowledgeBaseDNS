@@ -5,80 +5,80 @@ sidebar_position: 1
 
 # Private AdGuard DNS
 
-![Private AdGuard DNS dashboard main](https://cdn.adguard.com/public/Adguard/Blog/private_adguard_dns/main.png)
+![Private AdGuard DNS-hovedkontrolpanel](https://cdn.adguard.com/public/Adguard/Blog/private_adguard_dns/main.png)
 
-## What is Private AdGuard DNS
+## Hvad er Private AdGuard DNS
 
-Private AdGuard DNS is a DNS server that, in addition to benefits of a public DNS server (such as traffic encryption and domain blocklists), provides features like flexible customization, DNS statistics and parental control and is easily managed through a handy dashboard.
+Private AdGuard DNS er en DNS-server, der ud over fordelene ved en offentlig DNS-server (såsom trafikkryptering og domæneblokeringslister) giver funktioner såsom fleksibel tilpasning, DNS-statistik og forældrekontrol samt nemt håndteres via et praktisk kontrolpanel.
 
-## Why Private AdGuard DNS is needed
+## Hvorfor Private AdGuard DNS er nødvendig
 
-Today, you can connect anything to the Internet: TVs, refrigerators, smart bulbs, or speakers. But along with the undeniable conveniences you get trackers and ads. A simple browser-based ad blocker will not protect you in this case, but AdGuard DNS, which you can set up to filter traffic, block content and trackers, has a system-wide effect.
+I dag kan alt tilsluttes internet: TV, køleskabe, smartpærer eller højttalere. Men sammen med de ubestridelige bekvemmeligheder kommer trackere og annoncer. En simpel browserbaseret adblocker yder ikke beskyttelse i dette tilfælde, hvorimod AdGuard DNS, som kan opsættes til at filtrere trafik, blokere indhold og trackere, fungerer på systemniveau.
 
-We already have [public AdGuard DNS](../public-dns/overview.md) and [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome). These solutions work fine for some users, but for others, the public AdGuard DNS lacks the flexibility of configuration, while the AdGuard Home lacks simplicity. That's where private AdGuard DNS comes into play. It has the best of both worlds: it offers customizability, control and information - all through a simple easy-to-use dashboard.
+Vi har allerede [offentlig AdGuard DNS](../public-dns/overview.md) og [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome). Disse løsninger fungerer fint for nogle brugere, mens andre savner opsætningsfleksibilitet i den offentlige AdGuard DNS og enkelhed i AdGuard Home. Det er her, privat AdGuard DNS kommer ind i billedet. Den har det bedste fra begge verdener: Den tilbyder tilpasningsmuligheder, styring og information — alt sammen via et enkelt, brugervenligt kontrolpanel.
 
-## The difference between Private and Public AdGuard DNS
+## Forskellen mellem Private og Public AdGuard DNS
 
-Here is a simple comparison of features available in Public AdGuard DNS and Private AdGuard DNS servers.
+Her er en simpel sammenligning af funktioner tilgængelige i Public AdGuard DNS- og Private AdGuard DNS-servere.
 
-| Public AdGuard DNS               | Private AdGuard DNS                                                                            |
-| -------------------------------- | ---------------------------------------------------------------------------------------------- |
-| DNS traffic encryption           | DNS traffic encryption                                                                         |
-| Pre-determined domain blocklists | Customizable domain blocklists                                                                 |
-| -                                | Custom DNS filtering rules with import/export feature                                          |
-| -                                | Request statistics (see where do your DNS requests go: which countries, which companies, etc.) |
-| -                                | Detailed query log                                                                             |
-| -                                | Parental control                                                                               |
+| Offentlig AdGuard DNS          | Privat AdGuard DNS                                                               |
+| ------------------------------ | -------------------------------------------------------------------------------- |
+| DNS-trafikkryptering           | DNS-trafikkryptering                                                             |
+| Forudbestemte domænesortlister | Tilpasselige domænesortlister                                                    |
+| -                              | Tilpasselige DNS-filtreringsregler med import-/eksportfunktion                   |
+| -                              | Anmod om statistik (se mål for DNS-forepørgsler: Hvilke lande, virksomheder mv.) |
+| -                              | Detaljeret forespørgselslog                                                      |
+| -                              | Forældrekontrol                                                                  |
 
-## How to set up Private AdGuard DNS
+## Sådan opsættes Private AdGuard DNS
 
-1. Go to your [AdGuard DNS dashboard](https://adguard-dns.io/dashboard/) (if not logged in, log in using your AdGuard account)
-2. Click “Connect device” and follow on-screen instructions
+1. Gå til [AdGuard DNS-kontrolpanelet](https://adguard-dns.io/dashboard/) (log ind på din AdGuard-konto, hvis det ikke allerede er sket)
+2. Klik på "Tilslut enhed", og følg skærmvejledningen
 
-> Supported platforms: - Android - iOS - Windows - Mac - Linux - Routers - Gaming consoles
+> Understøttede platforme: - Android - iOS - Windows - Mac - Linux - Routere - Spillekonsoller
 
 
-## Private AdGuard DNS features
+## Private AdGuard DNS-funktioner
 
-### Blocklists management
+### Håndtering af sortlister
 
-With "Blocklists" feature you can set which domains you want to block and which you don't. Сhoose from wide variety of blocklists for different purposes.
+Med funktionen "Sortlister" kan man indstille, hvilke domæner, som skal blokeres, og hvilke, som ikke skal. Vælg mellem et bred udvalg af sortlister til forskellige formål.
 
-![Private AdGuard DNS dashboard blocklists](https://cdn.adguard.com/public/Adguard/Blog/private_adguard_dns/blocklists.png)
+![Private AdGuard DNS-kontrolpanel, sortlister](https://cdn.adguard.com/public/Adguard/Blog/private_adguard_dns/blocklists.png)
 
-### User rules
+### Brugerregler
 
-For times when pre-installed *Blocklists* with thousands of rules are not enough, we have a handy function called "User rules". Here you can add custom rules manually to block/unblock a certain domain or import custom rules lists (check out [DNS filtering rules syntax](../general/dns-filtering-syntax.md)). You can export the lists.
+Til situationer, hvor præinstallerede *Sortlister* med tusindvis af regler ikke er nok, findes funktionen kaldet "Brugerregler". Her kan der manuelt tilføjes tilpassede regler for at blokere/afblokere et bestemt domæne eller importere tilpassede regellister (tjek [syntaks for DNS-filtreringsregler](../general/dns-filtering-syntax.md)). Listerne kan eksporteres.
 
-![Private AdGuard DNS dashboard user rules](https://cdn.adguard.com/public/Adguard/Blog/private_adguard_dns/import.png)
+![Private AdGuard DNS-kontrolpanel, brugerregler](https://cdn.adguard.com/public/Adguard/Blog/private_adguard_dns/import.png)
 
-### Statistics
+### Statistikker
 
-In "Statistics" tab you can see all the summarized statistics on DNS queries made by devices connected to your Private AdGuard  DNS. It shows the total number and geography of requests, the number of blocked requests, the list of companies the requests were addressed to, requests types and top requested domains.
+På fanen "Statistik" fremgår alle de opsummerede statistikker om DNS-forespørgsler foretaget af enheder tilsluttet Private AdGuard DNS. Den viser det samlede antal samt geografi for forespørgsler, antallet af blokerede forespørgsler, en liste over virksomhederne, som var målene for forespørgslerne, forespørgselstyper og hyppigst forespurgte domæner.
 
-![Private AdGuard DNS dashboard statistics](https://cdn.adguard.com/public/Adguard/Blog/private_adguard_dns/statistics.png)
+![Private AdGuard DNS-kontrolpanel, statistikker](https://cdn.adguard.com/public/Adguard/Blog/private_adguard_dns/statistics.png)
 
-### Traffic destination
+### Trafikdestination
 
-This feature shows you where DNS requests sent by your devices go. On top of seeing the map of request destinations, you can filter the information by date, device and country.
+Denne funktion viser målene for enhedernes DNS-forespørgsler. Ud over at se et kort over forespørgselsmål/-destinationer, kan oplysningerne filtreres efter dato, enhed og land.
 
-![Private AdGuard DNS dashboard traffic](https://cdn.adguard.com/public/Adguard/Blog/private_adguard_dns/traffic_destination.png)
+![Private AdGuard DNS-kontrolpanel, trafik](https://cdn.adguard.com/public/Adguard/Blog/private_adguard_dns/traffic_destination.png)
 
-### Companies
+### Virksomheder
 
-This tab allows you to quickly check which companies send the most requests, and which companies have the most blocked requests.
+Denne fane muliggør hurtigt at tjekke, hvilke virksomheder, som sender flest forespørgsler, og hvilke, som har flest blokerede forespørgsler.
 
-![Private AdGuard DNS dashboard companies](https://cdn.adguard.com/public/Adguard/Blog/private_adguard_dns/companies.png)
+![Private AdGuard DNS-kontrolpanel, virksomheder](https://cdn.adguard.com/public/Adguard/Blog/private_adguard_dns/companies.png)
 
-### Query log
+### Forespørgselslog
 
-This is a detailed log where you can check out the information on every single request and also sort requests by status, type, company, device, time, country.
+Dette er en detaljeret log, hvori man kan tjekke oplysningerne om hver enkelt forespørgsel samt sortere forespørgsler efter status, type, virksomhed, enhed, tid, land.
 
-![Private AdGuard DNS dashboard query log](https://cdn.adguard.com/public/Adguard/Blog/private_adguard_dns/query_log.png)
+![Private AdGuard DNS-kontrolpanel, forespørgselslog](https://cdn.adguard.com/public/Adguard/Blog/private_adguard_dns/query_log.png)
 
-### Parental control
+### Forældrekontrol
 
-To protect your child from online content you deem inappropriate, set up and activate the *Parental control* option. In addition to options such as "adult content" blocking and safe search, we've added the ability to manually specify domains for blocking and set a schedule for the *Parental control* to work accordingly.
+For at beskytte børn mod onlineindhold, man finder upassende, så opsæt og aktivér funktionen *Forældrekontrol*. Ud over muligheder såsom blokering af "voksenindhold" og sikker søgning, har vi tilføjet muligheden for manuelt at angive domæner til blokering samt opsætte en tidsplan for, hvornår *Forældrekontrol* skal være aktiv.
 
-![Private AdGuard DNS dashboard Parental Control](https://cdn.adguard.com/public/Adguard/Blog/private_adguard_dns/parental_control.png)
-> In case you don't have Private AdGuard DNS yet, you can [get it on the official website](https://adguard-dns.io/).
+![Private AdGuard DNS-kontrolpanel, Forælderkontrol](https://cdn.adguard.com/public/Adguard/Blog/private_adguard_dns/parental_control.png)
+> Har du endnu ikke Private AdGuard DNS endnu, kan den fås via det officielle websted [](https://adguard-dns.io/).

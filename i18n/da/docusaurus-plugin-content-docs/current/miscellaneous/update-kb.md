@@ -1,15 +1,15 @@
 ---
-title: 'Updating the Knowledge Base'
+title: 'Opdatering af Vidensbase'
 sidebar_position: 3
 ---
 
-The goal of this Knowledge Base is to provide everyone with the most up-to-date information on all kinds of AdGuard DNS-related topics. But things constantly change, and sometimes an article doesn't reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released.
+Målet med denne vidensbase er at give alle den mest opdaterede information om alle slags AdGuard DNS-relaterede emner. Tingene ændrer sig dog konstant, og nogle gange afspejler en artikel ikke længere tingenes aktuelle tilstand — der er simpelthen ikke så mange af os til at holder øje med hver eneste bit af information og opdaterer det i alle nye versionsudgivelser.
 
-This is why we placed all of our KB content to [GitHub](https://github.com/AdguardTeam/KnowledgeBaseDNS), and now literally anyone can contribute to it by suggesting edits and translations to existing articles, as well as totally new ones.
+Dette er grunden til, at alt vores KB-indhold er placeret på [GitHub](https://github.com/AdguardTeam/KnowledgeBaseDNS), og nu kan bogstaveligt talt enhver bidrage til det ved at foreslå redigeringer og oversættelser til eksisterende artikler såvel som helt nye.
 
-## How to suggest a change or write a new article {#suggest-change}
+## Sådan foreslås en ændring eller skrives en ny artikel {#suggest-change}
 
-You can suggest changes to current articles and add new ones to the Knowledge Base using the functionality of the GitHub mentioned above. If you are unfamiliar with principles of working with the platform, start by reading [documentation in this section](https://docs.github.com/en).
+Man kan foreslå ændringer til nuværende artikler og tilføje nye til vidensbasen vha. funktionaliteten i GitHub nævnt ovenfor. If you are unfamiliar with principles of working with the platform, start by reading [documentation in this section](https://docs.github.com/en).
 
 Once you are ready to start, work in [the KnowledgeBaseDNS repository](https://github.com/AdguardTeam/KnowledgeBaseDNS). All texts in our Knowledge Base are written in `Markdown` markup language. Keep this in mind when editing or writing articles. Follow [this link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to learn more about Markdown syntax.
 

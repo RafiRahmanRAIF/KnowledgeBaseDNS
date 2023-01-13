@@ -289,7 +289,7 @@
     "description": "The ARIA label for search page input"
   },
   "theme.SearchPage.algoliaLabel": {
-    "message": "Search by Typesense",
+    "message": "Søg vha. Typesense",
     "description": "The ARIA label for Typesense mention"
   },
   "theme.SearchPage.fetchingNewResults": {

@@ -118,7 +118,7 @@ Less restrictive than the Family filter, it only blocks access to adult content 
 
 #### Security Filter
 
-Blocks phishing, spam and malicious domains
+Kimlik avı, spam ve kötü amaçlı alan adlarını engeller
 
 | Protokol       | Adres                                                |                                                                                                     |
 | -------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -190,7 +190,7 @@ These servers provide blocking unwanted and time-wasting content and also includ
 
 #### Standard
 
-DNS servers with custom filtering that protects your device from malware
+Cihazınızı kötü amaçlı yazılımlardan koruyan özel filtrelemeye sahip DNS sunucuları
 
 | Protokol       | Adres                                                          |                                                                                                                                              |
 | -------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -399,7 +399,7 @@ EDNS Client-Subnet is a method that includes components of end-user IP address d
 
 ### CIRA Canadian Shield DNS
 
-[CIRA Shield DNS](https://www.cira.ca/cybersecurity-services/canadianshield/how-works), kişisel ve finansal verilerin çalınmasına karşı koruma sağlar. Keep viruses, ransomware, and other malware out of your home.
+[CIRA Shield DNS](https://www.cira.ca/cybersecurity-services/canadianshield/how-works), kişisel ve finansal verilerin çalınmasına karşı koruma sağlar. Virüsleri, fidye yazılımlarını ve diğer kötü amaçlı yazılımları evinizden uzak tutun.
 
 #### Private
 
@@ -408,7 +408,7 @@ In "Private" mode, DNS resolution only
 | Protokol               | Adres                                                                                                    |                                                                                                  |
 | ---------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | DNS, IPv4              | `149.112.121.10` ve `149.112.122.10`                                                                     | [AdGuard'a ekle](sdns://AAAAAAAAAAAADjE0OS4xMTIuMTIxLjEw)                                        |
-| DNS, IPv6              | `2620:10A:80BB::10` and `2620:10A:80BC::10`                                                              | [AdGuard'a ekle](sdns://AAAAAAAAAAAAE1syNjIwOjEwQTo4MEJCOjoxMF0)                                 |
+| DNS, IPv6              | `2620:10A:80BB::10` ve `2620:10A:80BC::10`                                                               | [AdGuard'a ekle](sdns://AAAAAAAAAAAAE1syNjIwOjEwQTo4MEJCOjoxMF0)                                 |
 | DNS-over-HTTPS         | `https://private.canadianshield.cira.ca/dns-query`                                                       | [AdGuard'a ekle](sdns://AgEAAAAAAAAAAAAecHJpdmF0ZS5jYW5hZGlhbnNoaWVsZC5jaXJhLmNhCi9kbnMtcXVlcnk) |
 | DNS-over-TLS - Private | Ana makine adı: `tls://private.canadianshield.cira.ca` IP: `149.112.121.10` ve IPv6: `2620:10A:80BB::10` | [AdGuard'a ekle](sdns://AwAAAAAAAAAAAAAecHJpdmF0ZS5jYW5hZGlhbnNoaWVsZC5jaXJhLmNh)                |
 
@@ -477,7 +477,7 @@ In "Family" mode, Protected + blocking adult content
 
 ### Snopyta DNS
 
-[Snopyta DNS](https://snopyta.org/) is a privacy friendly DNS service run by Noah Seefried.
+[Snopyta DNS](https://snopyta.org/), Noah Seefried tarafından yönetilen gizlilik dostu bir DNS hizmetidir.
 
 | Protokol       | Adres                                                                                            |                                                                                       |
 | -------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
@@ -552,7 +552,7 @@ IPv6-based anycast DNS service with strong security capabilities and protection 
 
 ### IIJ.JP DNS
 
-[IIJ.JP](https://public.dns.iij.jp/) is a public DNS service operated by Internet Initiative Japan. It also blocks child abuse content.
+[IIJ.JP](https://public.dns.iij.jp/), Internet Initiative Japan tarafından yürütülen genel bir DNS hizmetidir. It also blocks child abuse content.
 
 | Protokol       | Adres                                 |                                                                                 |
 | -------------- | ------------------------------------- | ------------------------------------------------------------------------------- |
@@ -600,7 +600,7 @@ These servers block adult websites and inappropriate contents.
 
 ### Quad101
 
-[Quad101](https://101.101.101.101) is a free alternative DNS service without logging by TWNIC (Taiwan Network Information Center)
+[Quad101](https://101.101.101.101), TWNIC (Taiwan Network Information Center) tarafından günlük tutmayan ücretsiz bir alternatif DNS hizmetidir.
 
 | Protokol       | Adres                                  |                                                                          |
 | -------------- | -------------------------------------- | ------------------------------------------------------------------------ |
@@ -658,7 +658,7 @@ These servers block adult websites and inappropriate contents.
 
 ### FreeDNS
 
-[FreeDNS](https://freedns.zone/) is an open, free and public DNS Service provided by [Virtexxa cloud services](https://virtexxa.com/). No DNS redirects, no logging.
+[FreeDNS](https://freedns.zone/), [Virtexxa cloud services](https://virtexxa.com/) tarafından sağlanan açık, ücretsiz ve genel bir DNS hizmetidir. No DNS redirects, no logging.
 
 | Protokol  | Adres                                |                                                           |
 | --------- | ------------------------------------ | --------------------------------------------------------- |
@@ -715,7 +715,7 @@ These servers provide no ad blocking, keep no logs, and have DNSSEC enabled
 
 ### Strongarm DNS
 
-[Strongarm DNS](https://strongarm.io) is a DNS service by Strongarm that prevents people from interacting with malicious content
+[Strongarm DNS](https://strongarm.io), Strongarm tarafından sunulan ve insanların kötü amaçlı içerikle etkileşime girmesini engelleyen bir DNS hizmetidir.
 
 | Protokol  | Adres                             |                                                          |
 | --------- | --------------------------------- | -------------------------------------------------------- |
@@ -723,7 +723,7 @@ These servers provide no ad blocking, keep no logs, and have DNSSEC enabled
 
 ### SafeSurfer DNS
 
-[SafeSurfer DNS](https://www.safesurfer.co.nz/) is a DNS service by SafeSurfer that protects your device from harmful and adult contents.
+[SafeSurfer DNS](https://www.safesurfer.co.nz/), SafeSurfer tarafından sunulan, cihazınızı zararlı ve yetişkinlere yönelik içeriklerden koruyan bir DNS hizmetidir.
 
 | Protokol       | Adres                                                              |                                                                                                                                                   |
 | -------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -773,7 +773,7 @@ These servers provide no ad blocking, keep no logs, and have DNSSEC enabled
 
 ### DNS Forge
 
-[DNS Forge](https://dnsforge.de/) is a redundant DNS resolver with an ad blocker and no logging provided by [adminforge](https://adminforge.de/).
+[DNS Forge](https://dnsforge.de/), [adminforge](https://adminforge.de/) tarafından sağlanan bir reklam engelleyici ve günlük tutmama özelliğine sahip yedek bir DNS çözümleyicisidir.
 
 | Protokol       | Adres                                                |                                                                         |
 | -------------- | ---------------------------------------------------- | ----------------------------------------------------------------------- |
@@ -802,7 +802,7 @@ These servers provide no ad blocking, keep no logs, and have DNSSEC enabled
 
 ### FFMUC DNS
 
-[FFMUC](https://ffmuc.net/) free DNS servers provided by Freifunk München
+[FFMUC](https://ffmuc.net/), Freifunk München tarafından sağlanan ücretsiz DNS sunucularıdır
 
 | Protokol             | Adres                                                                   |                                                                                                                                                          |
 | -------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -832,7 +832,7 @@ These servers provide no ad blocking, keep no logs, and have DNSSEC enabled
 
 ### ibksturm DNS
 
-[ibksturm DNS](https://ibksturm.synology.me/) testing servers provided by ibksturm. OPENNIC, DNSSEC, no filtering, no logging
+[ibksturm DNS](https://ibksturm.synology.me/), ibksturm tarafından sağlanan test sunucuları. OPENNIC, DNSSEC, no filtering, no logging
 
 | Protokol             | Adres                                                                                      |                                                                                                                                                                                   |
 | -------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -853,7 +853,7 @@ DNS servers run by the [Stubby developers](https://getdnsapi.net/)
 | DNS-over-TLS | Sağlayıcı: `Surfnet` Ana makine adı: `tls://dnsovertls.sinodun.com` IP: `145.100.185.15` ve IPv6: `2001:610:1:40ba:145:100:185:15`  | [AdGuard'a ekle](sdns://AwAAAAAAAAAAAAAWZG5zb3ZlcnRscy5zaW5vZHVuLmNvbQ)  |
 | DNS-over-TLS | Sağlayıcı: `Surfnet` Ana makine adı: `tls://dnsovertls1.sinodun.com` IP: `145.100.185.16` ve IPv6: `2001:610:1:40ba:145:100:185:16` | [AdGuard'a ekle](sdns://AwAAAAAAAAAAAAAXZG5zb3ZlcnRsczEuc2lub2R1bi5jb20) |
 
-Other DNS servers with 'no logging' policy
+'Günlük tutmamama' politikasına sahip diğer DNS sunucuları
 
 | Protokol           | Adres                                                                                                                      |                                                                           |
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
@@ -890,7 +890,7 @@ Minimum günlük tutma/sınırlamaları olan DNS sunucuları. These servers use 
 | DNS-over-HTTPS, OISD filter                  | `https://blitz.ahadns.com/1:1`    | [AdGuard'a ekle](sdns://AgcAAAAAAAAAAAAQYmxpdHouYWhhZG5zLmNvbQQvMTox)     |
 | DNS-over-HTTPS, OISD & Energized porn filter | `https://blitz.ahadns.com/1:1.12` | [AdGuard'a ekle](sdns://AgcAAAAAAAAAAAAQYmxpdHouYWhhZG5zLmNvbQcvMToxLjEy) |
 
-#### Netherlands
+#### Hollanda
 
 | Protokol       | Adres                                 |                                                                                 |
 | -------------- | ------------------------------------- | ------------------------------------------------------------------------------- |
@@ -899,7 +899,7 @@ Minimum günlük tutma/sınırlamaları olan DNS sunucuları. These servers use 
 | DNS-over-HTTPS | `https://doh.nl.ahadns.net/dns-query` | [AdGuard'a ekle](sdns://AgAAAAAAAAAAAAARZG9oLm5sLmFoYWRucy5uZXQKL2Rucy1xdWVyeQ) |
 | DNS-over-TLS   | `tls://dot.nl.ahadns.net`             | [AdGuard'a ekle](sdns://AwAAAAAAAAAAAAARZG90Lm5sLmFoYWRucy5uZXQ)                |
 
-#### India
+#### Hindistan
 
 | Protokol       | Adres                                 |                                                                                 |
 | -------------- | ------------------------------------- | ------------------------------------------------------------------------------- |
@@ -926,14 +926,14 @@ Minimum günlük tutma/sınırlamaları olan DNS sunucuları. These servers use 
 | DNS-over-HTTPS | `https://doh.ny.ahadns.net/dns-query` | [AdGuard'a ekle](sdns://AgAAAAAAAAAAAAARZG9oLm55LmFoYWRucy5uZXQKL2Rucy1xdWVyeQ) |
 | DNS-over-TLS   | `tls://dot.ny.ahadns.net`             | [AdGuard'a ekle](sdns://AwAAAAAAAAAAAAARZG90Lm55LmFoYWRucy5uZXQ)                |
 
-#### Poland
+#### Polonya
 
 | Protokol       | Adres                                 |                                                                                 |
 | -------------- | ------------------------------------- | ------------------------------------------------------------------------------- |
 | DNS-over-HTTPS | `https://doh.pl.ahadns.net/dns-query` | [AdGuard'a ekle](sdns://AgAAAAAAAAAAAAARZG9oLnBsLmFoYWRucy5uZXQKL2Rucy1xdWVyeQ) |
 | DNS-over-TLS   | `tls://dot.pl.ahadns.net`             | [AdGuard'a ekle](sdns://AwAAAAAAAAAAAAARZG90LnBsLmFoYWRucy5uZXQ)                |
 
-#### Italy
+#### İtalya
 
 | Protokol       | Adres                                 |                                                                                 |
 | -------------- | ------------------------------------- | ------------------------------------------------------------------------------- |
@@ -941,21 +941,21 @@ Minimum günlük tutma/sınırlamaları olan DNS sunucuları. These servers use 
 | DNS-over-TLS   | `tls://dot.it.ahadns.net`             | [AdGuard'a ekle](sdns://AwAAAAAAAAAAAAARZG90Lml0LmFoYWRucy5uZXQ)                |
 
 
-#### Spain
+#### İspanya
 
 | Protokol       | Adres                                 |                                                                                 |
 | -------------- | ------------------------------------- | ------------------------------------------------------------------------------- |
 | DNS-over-HTTPS | `https://doh.es.ahadns.net/dns-query` | [AdGuard'a ekle](sdns://AgAAAAAAAAAAAAARZG9oLmVzLmFoYWRucy5uZXQKL2Rucy1xdWVyeQ) |
 | DNS-over-TLS   | `tls://dot.es.ahadns.net`             | [AdGuard'a ekle](sdns://AwAAAAAAAAAAAAARZG90LmVzLmFoYWRucy5uZXQ)                |
 
-#### Norway
+#### Norveç
 
 | Protokol       | Adres                                 |                                                                                 |
 | -------------- | ------------------------------------- | ------------------------------------------------------------------------------- |
 | DNS-over-HTTPS | `https://doh.no.ahadns.net/dns-query` | [AdGuard'a ekle](sdns://AgAAAAAAAAAAAAARZG9oLm5vLmFoYWRucy5uZXQKL2Rucy1xdWVyeQ) |
 | DNS-over-TLS   | `tls://dot.no.ahadns.net`             | [AdGuard'a ekle](sdns://AwAAAAAAAAAAAAARZG90Lm5vLmFoYWRucy5uZXQ)                |
 
-#### Chicago
+#### Şikago
 
 | Protokol       | Adres                                  |                                                                                  |
 | -------------- | -------------------------------------- | -------------------------------------------------------------------------------- |

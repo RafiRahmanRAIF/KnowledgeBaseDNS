@@ -3,7 +3,7 @@ title: DNS filtreleme
 sidebar_position: 1
 ---
 
-DNS filtrelemeyi daha iyi anlamak için öncelikle "DNS nedir?" sorusuna cevap vermeliyiz.
+DNS filtrelemeyi daha iyi anlamak için öncelikle "DNS nedir" sorusuna cevap vermeliyiz.
 
 ## DNS nedir?
 
@@ -15,13 +15,13 @@ Aynısı, elbette, yalnızca tarayıcılar için değil, herhangi bir web isteğ
 
 ## DNS filtreleme nasıl çalışır?
 
-DNS filtrelemeyi destekleyen AdGuard uygulamalarından birini kullandığınızda, cihazınız ile DNS sunucusu arasında bir arabellek görevi görür. Tarayıcılarınızın veya uygulamalarınızın göndermek üzere olduğu tüm DNS istekleri önce AdGuard tarafından işlenir. If you're using the default DNS server provided by your ISP, your DNS traffic is likely not encrypted and vulnerable to snooping and hijacking. AdGuard will encrypt all your DNS requests before they leave your device, so that no malefactor could get access to their contents. On top of that, AdGuard can identify requests to ad, tracking, and/or adult domains and redirect them to a "blackhole" instead of forwarding them to the DNS server. More on that [later](#local-dns-blocklists).
+DNS filtrelemeyi destekleyen AdGuard uygulamalarından birini kullandığınızda, cihazınız ile DNS sunucusu arasında bir arabellek görevi görür. Tarayıcılarınızın veya uygulamalarınızın göndermek üzere olduğu tüm DNS istekleri önce AdGuard tarafından işlenir. İSS'niz tarafından sağlanan varsayılan DNS sunucusunu kullanıyorsanız, DNS trafiğiniz muhtemelen şifrelenmemiş, gözetlemeye ve ele geçirilmeye karşı savunmasızdır. AdGuard tüm DNS isteklerinizi cihazınızdan ayrılmadan önce şifreler, böylece hiçbir kötü niyetli kişi bunların içeriğine erişemez. On top of that, AdGuard can identify requests to ad, tracking, and/or adult domains and redirect them to a "blackhole" instead of forwarding them to the DNS server. More on that [later](#local-dns-blocklists).
 
 ![DNS filtreleme nasıl çalışır](https://cdn.adguard.com/public/Adguard/kb/DNS_filtering/how_dns_filtering_works_en.png)
 
 DNS filtering is a powerful tool and it's supported by all major AdGuard apps: [AdGuard for Windows](https://adguard.com/en/adguard-windows/overview.html), [AdGuard for Mac](https://adguard.com/en/adguard-mac/overview.html), [AdGuard for Android](https://adguard.com/en/adguard-android/overview.html) and [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html).
 
-DNS filtering can be broken down into two separate functions: to encrypt and reroute DNS traffic to DNS servers, and to block some domains locally by applying DNS blocklists.
+DNS filtreleme iki ayrı işleve ayrılabilir: DNS trafiğini şifrelemek ile DNS sunucularına yeniden yönlendirmek ve DNS engel listelerini uygulayarak bazı alan adlarını yerel olarak engellemek.
 
 ### DNS sunucuları
 
@@ -29,17 +29,17 @@ Aralarından seçim yapabileceğiniz binlerce DNS sunucusu vardır ve bunların 
 
 ![AdGuard DNS](https://cdn.adguard.com/public/Adguard/kb/DNS_filtering/adguard_dns_en.jpg)
 
-Diğer DNS sağlayıcıları farklı çalışabilir, bu nedenle şu veya bu DNS sunucusuna bağlanmadan önce onlar hakkında daha fazla bilgi edinin. You can find the list of some of the most popular DNS providers in [this article](dns-providers.md). DNS işlevselliğini destekleyen tüm AdGuard uygulamalarında, aralarından seçim yapabileceğiniz, hatta istediğiniz herhangi bir özel DNS sunucusunu seçmenize izin veren bir DNS sunucuları listesi de vardır.
+Diğer DNS sağlayıcıları farklı çalışabilir, bu nedenle şu veya bu DNS sunucusuna bağlanmadan önce onlar hakkında daha fazla bilgi edinin. En popüler DNS sağlayıcılarından bazılarının listesini [bu makalede](dns-providers.md) bulabilirsiniz. DNS işlevselliğini destekleyen tüm AdGuard uygulamalarında, aralarından seçim yapabileceğiniz, hatta istediğiniz herhangi bir özel DNS sunucusunu seçmenize izin veren bir DNS sunucuları listesi de vardır.
 
 ### Yerel DNS engel listeleri
 
-Ancak, yalnızca DNS trafiğinizi filtrelemek için DNS sunucularına güvenerek tüm esnekliği kaybedersiniz. Seçilen sunucu bir alan adını engellerse, ona erişemezsiniz. AdGuard ile, DNS trafiğini filtrelemek için belirli bir DNS sunucusunu yapılandırmanız bile gerekmez. Tüm AdGuard ürünleri, basit ana makine dosyaları veya [daha gelişmiş söz dizimi](dns-filtering-syntax.md) kullanan listeler olsun, DNS engel listelerini kullanmanıza izin verir. They work similarly to regular blocklists: when a DNS request matches one of the rules in the active filter list, it gets blocked. To be more precise, it gets rerouted to a "blackhole".
+Ancak, yalnızca DNS trafiğinizi filtrelemek için DNS sunucularına güvenerek tüm esnekliği kaybedersiniz. Seçilen sunucu bir alan adını engellerse, ona erişemezsiniz. AdGuard ile, DNS trafiğini filtrelemek için belirli bir DNS sunucusunu yapılandırmanız bile gerekmez. Tüm AdGuard ürünleri, basit ana makine dosyaları veya [daha gelişmiş söz dizimi](dns-filtering-syntax.md) kullanan listeler olsun, DNS engel listelerini kullanmanıza izin verir. Normal engel listeleri ile benzer şekilde çalışırlar: bir DNS isteği etkin filtre listesindeki kurallardan biriyle eşleştiğinde engellenir. To be more precise, it gets rerouted to a "blackhole".
 > iOS için AdGuard'da, DNS engellemeye erişmek için önce ayarlarda "Gelişmiş modu" etkinleştirmeniz gerekir.
 
 İstediğiniz kadar özel engel listesi ekleyebilirsiniz. Örneğin, [AdGuard DNS filtresini](https://github.com/AdguardTeam/AdGuardSDNSFilter) kullanabilirsiniz. AdGuard DNS sunucusunun yaptığı her şeyi tam anlamıyla engeller, ancak bu durumda başka herhangi bir DNS sunucusunu kullanmakta özgürsünüz. Plus, this way you can add more filters or create custom exception rules, all of which would be impossible with a simple "use a blocking DNS server" setup.
 > There are hundreds of different DNS blocklists, you can look for them [here](https://filterlists.com/).
 
-## Comparing DNS filtering to network filtering
+## DNS filtreleme ile ağ filtrelemenin karşılaştırılması
 
 Ağ filtreleme, AdGuard bağımsız uygulamalarının ağ trafiğini işlemesinin 'normal' yolu olarak adlandırdığımız şeydir, dolayısıyla adı da buradan gelmektedir. Feel free to brush up on it by reading [this article](https://kb.adguard.com/en/general/how-ad-blocking-works).
 
@@ -48,8 +48,8 @@ Ağ filtreleme, AdGuard bağımsız uygulamalarının ağ trafiğini işlemesini
 **DNS filtrelemenin artıları:**
 
 1. Bazı platformlarda, sistem genelinde filtreleme yapmanın tek yolu budur. Örneğin, iOS'ta yalnızca Safari tarayıcısı bilinen anlamda içerik engellemeyi destekler, diğer her şey için yalnızca DNS filtreleme vardır.
-2. Some forms of tracking (like [CNAME-cloaked tracking](https://adguard.com/en/blog/cname-tracking.html)) can only be dealt with by DNS filtering.
-3. The stage of processing a DNS request is the earliest you could possibly deal with an ad or a tracker, this helps save a little bit of battery life and traffic.
+2. Bazı izleme biçimleri ([CNAME ile gizlenmiş izleme](https://adguard.com/en/blog/cname-tracking.html) gibi) yalnızca DNS filtrelemeyle üstesinden gelinebilir.
+3. Bir DNS isteğinin işlenmesi aşaması, bir reklam veya izleyiciyle başa çıkabileceğiniz en erken aşamadır, bu da pil ömründen ve veriden biraz tasarruf etmenize yardımcı olur.
 
 **DNS filtrelemenin eksileri:**
 

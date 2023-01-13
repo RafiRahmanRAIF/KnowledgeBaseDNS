@@ -47,16 +47,16 @@ Først og fremmest skal vi nævne, at man med AdGuard ikke behøver at vælge. M
 
 **Fordele ved DNS-filtrering:**
 
-1. On some platforms, this is the only way to achieve system-wide filtering. iOS understøtter f.eks. kun indholdsblokering i vanlig forstand i Safari-browseren, for alt andet findes kun DNS-filtrering.
+1. På visse platforme er dette den eneste måde at opnå systemniveaufiltrering på. iOS understøtter f.eks. kun indholdsblokering i vanlig forstand i Safari-browseren, for alt andet findes kun DNS-filtrering.
 2. Visse former for sporing (såsom [CNAME-tilsløret sporing](https://adguard.com/en/blog/cname-tracking.html)) kan kun imødegås vha. DNS-filtrering.
 3. Stadiet, hvor en DNS-forespørgsel behandles, er det tidligste, man overhovedet kan imødegå en annonce eller tracker, hvilket medvirker til at spare en lille smule batteristrøm og trafik.
 
 **Fordele ved DNS-filtrering:**
 
-1. DNS-filtrering er "grov", dvs., at den hverken fjerner tomme felter efterladt fra en blokeret annonce eller anvender nogen form for kosmetisk filtrering. Many of the more complicated ads can't be blocked on DNS-level (or rather, they can, but only by blocking the entire domains which are being used for other purposes).
+1. DNS-filtrering er "grov", dvs., at den hverken fjerner tomme felter efterladt fra en blokeret annonce eller anvender nogen form for kosmetisk filtrering. Mange af de mere komplicerede annoncer kan ikke blokeres på DNS-niveau (eller rettere sagt, det kan de, men kun ved at blokere selve domænerne, som muligvis også bruges til andre formål).
 
 ![Eksempel på forskel](https://cdn.adguard.com/public/Adguard/kb/DNS_filtering/dns_diff.jpg) *Et eksempel på forskellen mellem DNS-filtrering og netværksfiltrering*
 
-2. It's not possible to know the origin of a DNS request, which means you can't distinguish between different apps on the DNS-level. Dette belaster statistikken negative og umuliggør at oprette app-specifikke filtreringsregler.
+2. Oprindelsen på en DNS-forespørgsel ikke kan fastslås, hvorfor der på DNS-niveau ikke kan skelnes mellem forskellige apps. Dette belaster statistikken negative og umuliggør at oprette app-specifikke filtreringsregler.
 
 Vi anbefaler brug af DNS-filtrering i tillæg til netværksfiltrering, ikke i stedet for, når det er muligt.

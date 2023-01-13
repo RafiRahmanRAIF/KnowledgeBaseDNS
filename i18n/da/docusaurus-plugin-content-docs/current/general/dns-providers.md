@@ -1039,7 +1039,7 @@ Familietilstand tilbyder beskyttelse fra "Sikre" opløsere og blokerer voksenweb
 
 ### RethinkDNS
 
-[RethinkDNS](https://www.rethinkdns.com/configure) provides DNS-over-HTTPS service running as Cloudflare Worker and DNS-over-TLS service running as Fly.io Worker with configurable blocklists.
+[RethinkDNS](https://www.rethinkdns.com/configure) leverer en DNS-over-HTTPS tjeneste, der kører som Cloudflare Worker, og en DNS-over-TLS tjeneste, der kører som Fly.io Worker med tilpasselige blokeringslister.
 
 #### Ikke-filtrerende
 
@@ -1051,9 +1051,9 @@ Familietilstand tilbyder beskyttelse fra "Sikre" opløsere og blokerer voksenweb
 
 ### ControlD
 
-[ControlD](https://controld.com/free-dns) is public DNS service which provides ads, malware, and social media blocking.
+[ControlD](https://controld.com/free-dns) er en offentlig DNS-tjeneste, der tilbyder annonce-, malware- og sociale medier-blokering.
 
-#### Block malware
+#### Blokér malware
 
 | Protokol       | Adresse                           |                                                                                       |
 | -------------- | --------------------------------- | ------------------------------------------------------------------------------------- |
@@ -1061,7 +1061,7 @@ Familietilstand tilbyder beskyttelse fra "Sikre" opløsere og blokerer voksenweb
 | DNS-over-HTTPS | `https://freedns.controld.com/p1` | [Føj til AdGuard](sdns://AgcAAAAAAAAAH2h0dHBzOi8vZnJlZWRucy5jb250cm9sZC5jb20vcDEAAAA) |
 | DNS-over-TLS   | `tls://p1.freedns.controld.com`   | [Føj til AdGuard](sdns://AwcAAAAAAAAAF3AxLmZyZWVkbnMuY29udHJvbGQuY29tAAA)             |
 
-##### Block malware + ads
+##### Blokér malware + annoncer
 
 | Protokol       | Adresse                           |                                                                                       |
 | -------------- | --------------------------------- | ------------------------------------------------------------------------------------- |
@@ -1069,7 +1069,7 @@ Familietilstand tilbyder beskyttelse fra "Sikre" opløsere og blokerer voksenweb
 | DNS-over-HTTPS | `https://freedns.controld.com/p2` | [Føj til AdGuard](sdns://AgcAAAAAAAAAH2h0dHBzOi8vZnJlZWRucy5jb250cm9sZC5jb20vcDIAAAA) |
 | DNS-over-TLS   | `tls://p2.freedns.controld.com`   | [Føj til AdGuard](sdns://AwcAAAAAAAAAF3AyLmZyZWVkbnMuY29udHJvbGQuY29tAAA)             |
 
-##### Block malware + ads + social
+##### Blokér malware + annoncer + social
 
 | Protokol       | Adresse                           |                                                                                       |
 | -------------- | --------------------------------- | ------------------------------------------------------------------------------------- |
@@ -1079,7 +1079,7 @@ Familietilstand tilbyder beskyttelse fra "Sikre" opløsere og blokerer voksenweb
 
 ### Mullvad
 
-[Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/) provides publicly accessible DNS with QNAME minimization, endpoints located in Australia, Germany, Singapore, Sweden, United Kingdom and United States (New York and Los Angeles).
+[Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/) leverer offentligt tilgængeligt DNS med QNAME-minimering, endepunkter placeret i Australien, Tyskland, Singapore, Sverige, Storbritannien og USA (New York og Los Angeles).
 
 #### Ikke-filtrerende
 
@@ -1088,40 +1088,40 @@ Familietilstand tilbyder beskyttelse fra "Sikre" opløsere og blokerer voksenweb
 | DNS-over-HTTPS | `https://doh.mullvad.net/dns-query` | [Føj til AdGuard](sdns://AgcAAAAAAAAAAAAPZG9oLm11bGx2YWQubmV0Ci9kbnMtcXVlcnk) |
 | DNS-over-TLS   | `tls://doh.mullvad.net`             | [Føj til AdGuard](sdns://AwcAAAAAAAAAAAAPZG9oLm11bGx2YWQubmV0)                |
 
-#### Ad blocking
+#### Adblocking
 
 | Protokol       | Adresse                                     |                                                                                          |
 | -------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | DNS-over-HTTPS | `https://adblock.doh.mullvad.net/dns-query` | [Føj til AdGuard](sdns://AgcAAAAAAAAAAAAXYWRibG9jay5kb2gubXVsbHZhZC5uZXQKL2Rucy1xdWVyeQ) |
 | DNS-over-TLS   | `tls://adblock.doh.mullvad.net`             | [Føj til AdGuard](sdns://AwcAAAAAAAAAAAAXYWRibG9jay5kb2gubXVsbHZhZC5uZXQ)                |
 
-### Small personal resolvers
+### Små personlige opløsere
 
-In this section we list small, mostly personal DNS resolvers. De har ofte kun én eller meget få servere og dårligere oppetid end 'store' udbydere. We won't be able to proper monitor their availability. **Use them at your own risk!**
+Dette afsnit oplister små og fortrinsvis personlige DNS-opløsere. De har ofte kun én eller meget få servere og dårligere oppetid end 'store' udbydere. Vi vil ikke kunne overvåge deres tilgængelighed ordentligt. **Anvendelse sker på eget ansvar!**
 
 #### Arapurayil
 
-[Arapurayil](https://dns.arapurayil.com) is a personal DNS service hosted in Mumbai, India.
+[Arapurayil](https://dns.arapurayil.com) er en personlig DNS-tjeneste, der hostes i Mumbai, India.
 
-Non-logging | Filters ads, trackers, phishing,etc | DNSSEC | QNAME Minimization | No EDNS Client-Subnet.
+Ikke-logning | Filtrerer annoncer, trackere, phishing mv. | DNSSEC | QNAME-minimering | Intet EDNS Client-Subnet.
 
 | Protokol       | Adresse                                                      |                                                                                                                                                          |
 | -------------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| DNSCrypt, IPv4 | Host: `2.dnscrypt-cert.dns.arapurayil.com` IP: `3.7.156.128` | [Føj til AdGuard](sdns://AQMAAAAAAAAAEDMuNy4xNTYuMTI4Ojg0NDMgDXD9OSDJDwe2q9bi836PURTP14NLYS03RbDq6j891ZciMi5kbnNjcnlwdC1jZXJ0LmRucy5hcmFwdXJheWlsLmNvbQ) |
-| DNS-over-HTTPS | Host: `https://dns.arapurayil.com/dns-query`                 | [Føj til AdGuard](sdns://AgMAAAAAAAAAAAASZG5zLmFyYXB1cmF5aWwuY29tCi9kbnMtcXVlcnk)                                                                        |
+| DNSCrypt, IPv4 | Vært: `2.dnscrypt-cert.dns.arapurayil.com` IP: `3.7.156.128` | [Føj til AdGuard](sdns://AQMAAAAAAAAAEDMuNy4xNTYuMTI4Ojg0NDMgDXD9OSDJDwe2q9bi836PURTP14NLYS03RbDq6j891ZciMi5kbnNjcnlwdC1jZXJ0LmRucy5hcmFwdXJheWlsLmNvbQ) |
+| DNS-over-HTTPS | Vært: `https://dns.arapurayil.com/dns-query`                 | [Føj til AdGuard](sdns://AgMAAAAAAAAAAAASZG5zLmFyYXB1cmF5aWwuY29tCi9kbnMtcXVlcnk)                                                                        |
 
 
 #### Dandelion Sprout's Official DNS Server
 
-[Dandelion Sprout's Official DNS Server](https://github.com/DandelionSprout/adfilt/tree/master/Dandelion%20Sprout's%20Official%20DNS%20Server) is a personal DNS service hosted in Trondheim, Norway, using an AdGuard Home infrastructure.
+[Dandelion Sprout's Official DNS Server](https://github.com/DandelionSprout/adfilt/tree/master/Dandelion%20Sprout's%20Official%20DNS%20Server) er en personlig DNS-tjeneste, der hostes i Trondheim, Norge, vha. en AdGuard Home-infrastruktur.
 
-Blocks more ads and malware than AdGuard DNS thanks to more advanced syntax, but goes easier on trackers, and blocks alt-right tabloids and most imageboards. Logging is used to improve its used filterlists (e.g. by unblocking sites that shouldn't have been blocked), and to determine the least bad times for server system updates.
+Blokerer flere annoncer og malware end AdGuard DNS takket være en mere avanceret syntaks, men med mindre striks håndtering af trackere, samt blokering af alt-right tabloids og de fleste imageboards. Logning bruges til at forbedre dens anvendte filterlister (f.eks. ved afblokering af websteder, som ikke burde være blevet blokeret), samt til at bestemme de mindst forstyrrende tidspunkter for serversystemopdateringer.
 
 | Protokol       | Adresse                                               |                                                                                                       |
 | -------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | DNS-over-HTTPS | `https://dandelionsprout.asuscomm.com:2501/dns-query` | [Føj til AdGuard](sdns://AgEAAAAAAAAAAAAhZGFuZGVsaW9uc3Byb3V0LmFzdXNjb21tLmNvbToyNTAxCi9kbnMtcXVlcnk) |
 | DNS-over-TLS   | `tls://dandelionsprout.asuscomm.com:853`              | [Føj til AdGuard](sdns://AwEAAAAAAAAAAAAgZGFuZGVsaW9uc3Byb3V0LmFzdXNjb21tLmNvbTo4NTM)                 |
 | DNS-over-QUIC  | `quic://dandelionsprout.asuscomm.com:48582`           | [Føj til AdGuard](sdns://BAEAAAAAAAAAAAAiZGFuZGVsaW9uc3Byb3V0LmFzdXNjb21tLmNvbTo0ODU4Mg)              |
-| DNS, IPv4      | Varies; see link above.                               |                                                                                                       |
-| DNS, IPv6      | Varies; see link above.                               |                                                                                                       |
-| DNSCrypt, IPv4 | Varies; see link above.                               |                                                                                                       |
+| DNS, IPv4      | Varierer; se linket ovenfor.                          |                                                                                                       |
+| DNS, IPv6      | Varierer; se linket ovenfor.                          |                                                                                                       |
+| DNSCrypt, IPv4 | Varierer; se linket ovenfor.                          |                                                                                                       |
